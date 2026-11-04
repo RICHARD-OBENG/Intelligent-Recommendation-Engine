@@ -1,0 +1,35 @@
+{
+    "table": "tags",
+    "total_rows": 2000072,
+    "total_columns": 4,
+    "columns": [
+        "userId",
+        "movieId",
+        "tag",
+        "timestamp"
+    ],
+    "schema": {
+        "userId": "Int64",
+        "movieId": "Int64",
+        "tag": "String",
+        "timestamp": "Int64"
+    },
+    "missing_values": {
+        "userId": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "movieId": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "tag": {
+            "missing_count": 17,
+            "missing_percentage": 0.0008
+        },
+        "timestamp": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        }
+    }
+}

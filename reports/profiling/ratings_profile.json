@@ -1,0 +1,35 @@
+{
+    "table": "ratings",
+    "total_rows": 32000204,
+    "total_columns": 4,
+    "columns": [
+        "userId",
+        "movieId",
+        "rating",
+        "timestamp"
+    ],
+    "schema": {
+        "userId": "Int64",
+        "movieId": "Int64",
+        "rating": "Float64",
+        "timestamp": "Int64"
+    },
+    "missing_values": {
+        "userId": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "movieId": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "rating": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "timestamp": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        }
+    }
+}

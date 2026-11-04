@@ -1,0 +1,13 @@
+{
+    "missing_values": {
+        "userId": 0,
+        "movieId": 0,
+        "rating": 0,
+        "timestamp": 0
+    },
+    "invalid_ratings": 0,
+    "invalid_ids": 0,
+    "invalid_timestamps": 0,
+    "duplicate_user_movie_pairs": 0,
+    "unknown_movie_references": 0
+}

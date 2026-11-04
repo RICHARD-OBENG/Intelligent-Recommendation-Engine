@@ -1,0 +1,29 @@
+{
+    "table": "links",
+    "total_rows": 87585,
+    "total_columns": 3,
+    "columns": [
+        "movieId",
+        "imdbId",
+        "tmdbId"
+    ],
+    "schema": {
+        "movieId": "Int64",
+        "imdbId": "Int64",
+        "tmdbId": "Int64"
+    },
+    "missing_values": {
+        "movieId": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "imdbId": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "tmdbId": {
+            "missing_count": 124,
+            "missing_percentage": 0.1416
+        }
+    }
+}

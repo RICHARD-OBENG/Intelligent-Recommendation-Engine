@@ -1,0 +1,26 @@
+processing:
+  random_seed: 42
+
+  memory:
+    streaming: true
+    parquet_compression: zstd
+    row_group_size: 100000
+
+  interactions:
+    positive_rating_threshold: 4.0
+
+  validation:
+    rating_min: 0.5
+    rating_max: 5.0
+    allow_null_values: false
+    check_duplicates: true
+    check_foreign_keys: true
+
+  analysis:
+    top_users: 20
+    top_movies: 20
+    temporal_frequency: 1d
+
+  output:
+    format: parquet
+    compression: zstd

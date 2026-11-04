@@ -1,0 +1,29 @@
+{
+    "table": "movies",
+    "total_rows": 87585,
+    "total_columns": 3,
+    "columns": [
+        "movieId",
+        "title",
+        "genres"
+    ],
+    "schema": {
+        "movieId": "Int64",
+        "title": "String",
+        "genres": "String"
+    },
+    "missing_values": {
+        "movieId": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "title": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        },
+        "genres": {
+            "missing_count": 0,
+            "missing_percentage": 0.0
+        }
+    }
+}
