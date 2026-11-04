@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/
+data/raw/movielens/ml-32m/
+data/interim/
+data/processed/
+
+# Models and experiments
+*.pkl
+*.joblib
+*.pt
+*.pth
+mlruns/
+mlartifacts/
+
+# Logs and reports
+logs/*
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db

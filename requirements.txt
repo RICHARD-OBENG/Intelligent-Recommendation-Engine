@@ -1,0 +1,15 @@
+
+numpy
+pandas
+polars[rtcompat]
+scipy
+scikit-learn
+matplotlib
+seaborn
+pyarrow
+pyyaml
+pydantic
+jupyterlab 
+pytest 
+requests
+ruff

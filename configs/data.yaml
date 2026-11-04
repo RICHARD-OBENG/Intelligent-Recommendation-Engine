@@ -1,0 +1,43 @@
+project:
+  name: intelligent-recommendation-engine
+  environment: development
+  random_seed: 42
+
+dataset:
+  name: movielens-32m
+  source_url: https://files.grouplens.org/datasets/movielens/ml-32m.zip
+
+paths:
+  raw: data/raw/movielens
+  interim: data/interim
+  processed: data/processed
+
+validation:
+  required_files:
+    - ratings.csv
+    - movies.csv
+    - tags.csv
+    - links.csv
+
+  required_columns:
+    ratings:
+      - userId
+      - movieId
+      - rating
+      - timestamp
+
+    movies:
+      - movieId
+      - title
+      - genres
+
+    tags:
+      - userId
+      - movieId
+      - tag
+      - timestamp
+
+    links:
+      - movieId
+      - imdbId
+      - tmdbId

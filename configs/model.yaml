@@ -1,0 +1,14 @@
+model:
+  random_seed: 42
+
+recommendation:
+  top_k: 10
+  minimum_rating: 4.0
+
+evaluation:
+  test_size: 0.2
+  ranking_metrics:
+    - precision_at_k
+    - recall_at_k
+    - ndcg_at_k
+    - map_at_k
